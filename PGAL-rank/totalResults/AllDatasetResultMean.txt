@@ -1,4 +1,0 @@
-ForestTypes	anchor	lambda	ncomp	beta	ACC	NMI	Purity	Fscore	Precision	Recall	AR	Entropy	maxFrac	minFrac	iter	time
-ForestTypes	8	1e-06	4	20604	0.806883	0.568238	0.806883	0.688861	0.656009	0.725178	0.557771	1.80873	0.42065	0.0956023	4	0.39
-Wikipedia	anchor	lambda	ncomp	beta	ACC	NMI	Purity	Fscore	Precision	Recall	AR	Entropy	maxFrac	minFrac	iter	time
-Wikipedia	40	1e-06	10	2953.9	0.564201	0.541582	0.603629	0.467543	0.408906	0.545813	0.392719	3.01763	0.255757	0.0153524	13	2.07

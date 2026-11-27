@@ -124,7 +124,10 @@ k = numel(unique(Y));
 [labels, ncomp, sizes] = PGAL_Z2labels(Z);
 res = Clustering8Measure(Y, labels);   % [ACC, NMI, Purity, Fscore, Precision, Recall, AR, Entropy]
 
-% 2. 一键运行全部 6 组变体的完整消融实验（ForestTypes + Wikipedia）
+% 2. 运行方案一主脚本（全网格遍历 ForestTypes / Wikipedia）
+run
+
+% 3. 一键运行方案一内部 4 种模式消融实验（none / hard / sth / soft）
 cmp_ablation_plan1
 ```
 
